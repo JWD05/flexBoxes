@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .heading {
     background-color: rgb(228, 158, 170);
     border-radius: 50%;
@@ -9,9 +12,12 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    padding:0 4px;
+
 }
 .column{
-    flex: 25%;
+    flex: 25%; 
+    /* flex is the short-cut for flex-basis */
     max-width: 25%;
     padding: 0 4px;
 }
